@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shapebotton">
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/HomeId"
+        android:title="Home" />
+    <item
+
+        app:showAsAction="always"
+        android:icon="@drawable/addchart_24"
+        android:id="@+id/ChatId"
+        android:title="Chat"/>
+    <item
+
+        app:showAsAction="always"
+        android:icon="@drawable/library_books_24"
+        android:id="@+id/BooktId"
+        android:title="Book"/>
+    <item
+
+        app:showAsAction="always"
+        android:icon="@drawable/info_24"
+        android:id="@+id/infoId"
+        android:title="Info"/>
+
+</menu>
